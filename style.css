@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #ffc600;
+  background: #dfffea;
 }
 
 *, *:before, *:after {
@@ -66,4 +66,19 @@ h1 {
 
 .hole.up .mole {
   top: 0;
+}
+
+.gameButton {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background: #bbf4ff;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
